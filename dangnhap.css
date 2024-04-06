@@ -126,10 +126,16 @@ margin-left: 10px;
     font-size: 18pt;
     font-weight: bold;
 }
-.nav__mobile {
+.close {
     display: none;
 }
-.icon {
+.icon img{
+    display: none;
+}
+.nav_mobile {
+    display: none;
+}
+.mobile{
     display: none;
 }
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
@@ -251,17 +257,99 @@ margin-left: 10px;
         display: none; 
     }
     
-    .content-trai.show {
+    .content-trai.hien {
         display: block;
     }
-    .content-trai .mobile .nav__mobile .close img {
+    .show {
+        display: block;
+    }
+    .close {
+        display: block;
+    }
+    .close img {
         width: 35px;
-        position: absolute;
-        top: 0;
-        right: 0;
+        margin-left: 150px;
+    }
+    .content-phai{
+        margin-left: 30px;
+        display: block;
+    }
+    .content .content-phai .title h1{
+        font-size: 30pt;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+    .content .content-phai .title .thanhngang {
+        display: block;
+        content: "";
+        width: 700px;
+        height: 3px;
+        background: black;
+        margin-top: 5px;
+    }
+    .content .content-phai .box {
+        display: block;
+        margin-top: 130px;
+        margin-left: 80px;
+        
+    }
+    .content .content-phai .box .box1 {
+        display: block;
+        width: 529px;
+        height: 424px;
+        background: white;
+        border-radius: 10px;
+        
+    }
+    .box2 .title1 h1 {
+        font-size: 30pt;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
         margin-top: 10px;
     }
-    .icon {
+    .content .content-phai .box .box1 .login-container .login-form .input-group .dangnhap{
         display: block;
+        margin-top: 20px;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #F4F4F4;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container .login-form .input-group1 .dangki{
+        display: block;
+        margin-top: 20px;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #F4F4F4;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container .dangkingay a {
+        margin-left: 350px;
+        line-height: 60px;
+        color: #AAAAAA;
+        font-size: 16pt;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container button {
+        display: block;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #A9ACE7;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 18pt;
+        font-weight: bold;
     }
 }

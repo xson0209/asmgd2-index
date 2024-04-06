@@ -114,6 +114,10 @@ a {
 .icon img {
     display: none;
 }
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
     .icon img {
         display: none;

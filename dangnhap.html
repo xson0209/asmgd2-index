@@ -6,31 +6,32 @@
     <title>Assignment Gđ2</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="dangnhap.css">
+</head>
+<body>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const icon = document.querySelector('.icon');
             const contentTrai = document.querySelector('.content-trai');
     
             icon.addEventListener('click', function() {
-                if (contentTrai.classList.contains('show')) {
-                    contentTrai.classList.remove('show');
+                if (contentTrai.classList.contains('hien')) {
+                    contentTrai.classList.remove('hien');
                 } else {
-                    contentTrai.classList.add('show');
+                    contentTrai.classList.add('hien');
                 }
             });
     
             const closeBtn = document.querySelector('.close img');
     
             closeBtn.addEventListener('click', function() {
-                contentTrai.classList.remove('show');
+                contentTrai.classList.remove('hien');
             });
         });
     </script>
-</head>
-<body>
     <div class="content">
+        
         <div class="content">
-            <label for="check-input" class="icon">
+            <label class="icon">
                 <img src="images/Thanh mở narbar.png" alt="">
             </label>
             <div class="content-trai">
